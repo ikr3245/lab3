@@ -18,7 +18,7 @@ def calculate():
         else:
             color_signature = "красный"
 
-        result_text = f"Результат: {result}, подпись цвета: {color_signature}"
+        result_text = f("Результат: {result}, подпись цвета: {color_signature}")
         result_var.set(result_text)
 
     except ValueError:
