@@ -13,4 +13,4 @@ while prodolzhit == 'yes':
         print(f_num * sec_num)
     else:
         print("Error")
-    prodolzhit = input("введите 'yes' чтоб продолжить, или что-то другое, что выйти ")
+    prodolzhit = input("введите 'yes' чтоб продолжить, или что-то другое, что уйти ")
